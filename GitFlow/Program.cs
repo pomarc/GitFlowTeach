@@ -10,7 +10,7 @@ namespace GitFlow
     {
         public static int doubleint(int i)
         {
-            return i * 2;
+            return i +i; //faster!
         }
         public static void featureOne(int i)
         {
