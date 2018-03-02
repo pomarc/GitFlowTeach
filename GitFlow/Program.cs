@@ -28,6 +28,7 @@ namespace GitFlow
         }
         static void Main(string[] args)
         {
+            Console.WriteLine("fixed header");
             FeatureTwo("ciao");
 
             FeatureThree(true);
