@@ -8,8 +8,14 @@ namespace GitFlow
 {
     class Program
     {
+        public static void featureOne(int i)
+        {
+            Console.WriteLine("feature 1 " + i);
+        }
         static void Main(string[] args)
         {
+
+            featureOne(0);
         }
     }
 }
