@@ -28,13 +28,18 @@ namespace GitFlow
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("fixed header");
+            header();
             FeatureTwo("ciao");
 
             FeatureThree(true);
 
             featureOne(0);
             Console.ReadKey();
+        }
+
+        private static void header()
+        {
+            Console.WriteLine("fixed header");
         }
     }
 }
