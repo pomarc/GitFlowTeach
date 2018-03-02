@@ -8,6 +8,7 @@ namespace GitFlow
 {
     class Program
     {
+        //this is an hotfix! for release 1.0.1
         public static int doubleint(int i)
         {
             return i * 2;
