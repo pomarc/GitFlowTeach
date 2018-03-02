@@ -8,6 +8,7 @@ namespace GitFlow
 {
     class Program
     {
+        //this is an hotfix! for release 1.0.1
         public static int doubleint(int i)
         {
             return i * 2;
@@ -19,7 +20,7 @@ namespace GitFlow
         }
         public static void FeatureTwo(string s)
         {
-            Console.WriteLine("F2.1 " + s+" nini");
+            Console.WriteLine("F2.2 say "+helloer.SayHullow() + s+" nini");
         }
         static void Main(string[] args)
         {
