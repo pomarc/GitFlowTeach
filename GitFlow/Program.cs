@@ -19,7 +19,7 @@ namespace GitFlow
         }
         public static void FeatureTwo(string s)
         {
-            Console.WriteLine("F2.1 " + s+" nini");
+            Console.WriteLine("F2.2 say "+helloer.SayHullow() + s+" nini");
         }
         static void Main(string[] args)
         {
