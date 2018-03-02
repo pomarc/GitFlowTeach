@@ -8,10 +8,9 @@ namespace GitFlow
 {
     class Program
     {
-        //this is an hotfix! for release 1.0.1
         public static int doubleint(int i)
         {
-            return i * 2;
+            return i +i; //faster!
         }
         public static void featureOne(int i)
         {
@@ -20,7 +19,7 @@ namespace GitFlow
         }
         public static void FeatureTwo(string s)
         {
-            Console.WriteLine("F2.2 say "+helloer.SayHullow() + s+" nini");
+            Console.WriteLine("F2.1 " + s+" nini");
         }
 
         public static void FeatureThree(bool b)
