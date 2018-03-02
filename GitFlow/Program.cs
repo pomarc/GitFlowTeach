@@ -33,6 +33,7 @@ namespace GitFlow
             FeatureThree(true);
 
             featureOne(0);
+            Console.ReadKey();
         }
     }
 }
