@@ -10,7 +10,7 @@ namespace GitFlow
     {
         public static void featureOne(int i)
         {
-            Console.WriteLine("feature 1 " + i);
+            Console.WriteLine("feature 1.1 " + i*2);
         }
         static void Main(string[] args)
         {
