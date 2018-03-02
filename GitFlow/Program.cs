@@ -21,9 +21,16 @@ namespace GitFlow
         {
             Console.WriteLine("F2.1 " + s+" nini");
         }
+
+        public static void FeatureThree(bool b)
+        {
+            Console.WriteLine("F3 " + b);
+        }
         static void Main(string[] args)
         {
             FeatureTwo("ciao");
+
+            FeatureThree(true);
 
             featureOne(0);
         }
